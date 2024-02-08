@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    Akshaya.
+                </div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#services">Skills</a></li>
+
+                    <li><a href="#portfolio">Projects</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Coder and Web Developer</p>
+                <h1>Hi, I'm <span>Akshaya</span><br> Ashok From Coimbatore</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="./Akshaya Photo.jpeg" alt="MyPic"></div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a dedicated coder and web developer with a passion for solving complex problems. I am
+                        skilled in public speaking and I strive for excellence in all my endeavours by committing full
+                        effort. I am particularly drawn to problem-solving challenges and enjoy finding innovative
+                        solutions. With a track record of outstanding academic performance since childhood, I bring a
+                        strong foundation of academic excellence to my work.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmer</span><br>Problem solving</li>
+
+                            <li><span>Web Development</span><br>Web app development</li>
+
+                            <li><span>Database</span><br>Database Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug 2023-Feb 2024</span><br>Samsung PRISM program at Samsung R&D Bangalore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>BE Computer Science and Engineering at Coimbatore Institute
+                                of Technology</li>
+
+                            <li><span>2020-2021</span><br>HSC at Bharatiya Vidya Bhavan</li>
+
+                            <li><span>2018-2019</span><br>SSLC at Bharatiya Vidya Bhavan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------services-------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Areas of Expertise</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I have developed numerous projects using HTML, CSS, JavaScript, NodeJS, ExpressJS and used
+                        MongoDB as Database</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>C++ Programmer</h2>
+                    <p>I have participated in numerous coding contests and I actively engage myself in problem-solving.
+                        I am always curious in finding optimal solutions to problems.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------Portfolio------------------------------------------->
+    <br>
+    <br>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img1.jpeg">
+                    <div class="layer">
+                        <h3>Blogging website</h3>
+                        <p>Developed a versatile blog platform for seamless reading and writing experiences. Users
+                            could create, publish, and manage blogs.
+                            EJS as backend and MongoDB for database</p>
+                        <a href="https://github.com/akshayaashok11/Blog-Application" target="_blank"
+                            style="text-decoration: none;"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imgg2.png">
+                    <div class="layer">
+                        <h3>Expense Tracker</h3>
+                        <p>Created an expense tracking application using Java, enabling individuals to efficiently
+                            record,
+                            store and view expenses in an Oracle SQL database.</p>
+                        <a href="https://.com/akshayaashok11/Expense-Tracker" target="_blank"
+                            style="text-decoration: none;"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="img3.webp">
+                    <div class="layer">
+                        <h3>Album and Track Management</h3>
+                        <p>Developed a Windows desktop app for managing music: add/delete songs/albums
+                            and play corresponding YouTube videos using C#, .NET Framework( Windows Forms) and Microsoft
+                            Visual Studio.</p>
+                        <a href="https://github.com/akshayaashok11/Music-and-Album-Tracker" target="_blank"
+                            style="text-decoration: none;"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------Contact-------------------->
+    <br>
+    <br>
+    <div id="contact">
+        <div class="conatiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>akshayaashok1109@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9750935611</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akshaya-ashok11/"><i
+                                class="fa-brands fa-linkedin"></i></a>Linkedin Profile
+                        <a href=""></a>
+                    </div>
+                    <a href="./AKSHAYA_ASHOK_RESUME.pdf" download class="btn ">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Footer--------------------------->
+    <div class="footer">
+        <p>&#169; All rights reserved, 2024</p>
+    </div>
+    <script src="https://kit.fontawesome.com/b8a86f48d6.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
